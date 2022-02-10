@@ -1,0 +1,29 @@
+stno=int(input("student no.:"))
+sname=input("Student name:")
+sgroup=input("Student group:")
+s1=int(input("Oprating system marks:"))
+s2=int(input("Java marks:"))
+s3=int(input("Accounts marks:"))
+s4=int(input("Online business marks:"))
+s5=int(input("Environmental education marks:"))
+s6=int(input("Hindi marks:"))
+s7=int(input("English marks:"))
+s8=int(input("Analytical Skilles marks:"))
+if(s1>=34 and s2>=34 and s3>=34 and s4>=23 and s5>=23 and s6>=34 and s7>=34 and s8>=23):
+    print("Pass")
+else:
+    print("Fail")
+
+
+student no.:6
+Student name:G Eekshitha
+Student group:BCA
+Oprating system marks:68
+Java marks:65
+Accounts marks:63
+Online business marks:45
+Environmental education marks:46
+Hindi marks:63
+English marks:67
+Analytical Skilles marks:45
+Pass
