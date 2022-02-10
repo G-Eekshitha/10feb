@@ -1,0 +1,8 @@
+n=int(input("Enter the number:"))
+if(n>=0):
+  print(n,"positive number")
+else:
+  print(n,"negative number") 
+    
+Enter the number:-9
+-9 negative number
